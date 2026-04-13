@@ -19,5 +19,5 @@ function closeNav(id) {
       top: 0,
       left: 0
     });
-  }, 500); // 👈 must match your CSS transition time
+  }, 500); // must match your CSS transition time
 }

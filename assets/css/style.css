@@ -257,6 +257,7 @@ header {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .header-fade{
@@ -502,6 +503,17 @@ summary{
 
 @media (max-width: 779px) {
 
+   .image-fade {
+    height: 80vh;
+    overflow: hidden;
+    margin-top: 0; /* fixes overlap on mobile */
+  }
+
+  .image-fade img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
   /* your 'mobile' overriding css properties here */
 
 
